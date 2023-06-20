@@ -1,7 +1,12 @@
 import "./App.css";
+import VendingMachine from "./VendingMachine";
 
 function App() {
-  return <h1>Hello</h1>;
+  return (
+    <div>
+      <VendingMachine />
+    </div>
+  );
 }
 
 export default App;
